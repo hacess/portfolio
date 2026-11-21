@@ -1,0 +1,8 @@
+# Private source file: contains a phone number. Never publish.
+*.pages
+# Internal notes
+claude.md
+CLAUDE.md
+.DS_Store
+node_modules/
+*.tmp

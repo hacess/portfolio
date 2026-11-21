@@ -1,0 +1,770 @@
+{
+  "version": 1,
+  "owner": "Chandan Chakraborty",
+  "chunks": [
+    {
+      "id": "about-summary",
+      "title": "About me",
+      "section": "#about",
+      "text": "I am a Senior Technical Architect with 10 years of experience building scalable backend systems and AI-powered applications. I specialize in LLM-integrated architectures, RAG pipelines and microservices-based systems using Python, Laravel and cloud platforms. I deliver enterprise SaaS products with a strong focus on automation, scalability and reliability.",
+      "tags": [
+        "about",
+        "summary",
+        "who",
+        "architect",
+        "experience",
+        "years",
+        "introduction",
+        "profile",
+        "background",
+        "10"
+      ]
+    },
+    {
+      "id": "about-location",
+      "title": "Location and current role",
+      "section": "#about",
+      "text": "I am based in Kolkata, West Bengal, India. I currently work as a Senior Technical Architect at BinaryFolks Pvt Ltd in Kolkata.",
+      "tags": [
+        "location",
+        "where",
+        "based",
+        "kolkata",
+        "india",
+        "city",
+        "company",
+        "current",
+        "job",
+        "binaryfolks",
+        "employer"
+      ]
+    },
+    {
+      "id": "about-leadership",
+      "title": "Team leadership",
+      "section": "#about",
+      "text": "I lead engineering teams, running code reviews, architectural planning and system design decisions, and mentoring engineers on building reliable production systems.",
+      "tags": [
+        "lead",
+        "leadership",
+        "team",
+        "manage",
+        "management",
+        "mentor",
+        "code review",
+        "engineers",
+        "people"
+      ]
+    },
+    {
+      "id": "about-education",
+      "title": "Education",
+      "section": "#about",
+      "text": "I hold a B.Tech in Computer Science from Surendra Institute of Engineering and Management, which I studied from 2013 to 2017.",
+      "tags": [
+        "education",
+        "degree",
+        "college",
+        "university",
+        "btech",
+        "study",
+        "studied",
+        "graduate",
+        "qualification"
+      ]
+    },
+    {
+      "id": "about-certifications",
+      "title": "Certifications",
+      "section": "#about",
+      "text": "My certifications include AMCAT Certified Data Processing Specialist, Python from Beginner to Expert, AMCAT Certified Customer Service Specialist and AMCAT Certified Channel Sales Professional.",
+      "tags": [
+        "certification",
+        "certificate",
+        "certified",
+        "amcat",
+        "course",
+        "python"
+      ]
+    },
+    {
+      "id": "role-senior-architect",
+      "title": "Senior Technical Architect, BinaryFolks (Apr 2025 to present)",
+      "section": "#timeline",
+      "text": "Since April 2025 I have been Senior Technical Architect at BinaryFolks Pvt Ltd. In this role I built a Workforce Activity Monitor: a cross-platform Electron desktop app that classifies activity every 60 seconds using active-window polling, input tracking, a deterministic app lookup and an on-device Qwen 0.8B ONNX vision model, with spoof detection, secure IPC, SQLite persistence and a retrying sync queue.",
+      "tags": [
+        "senior",
+        "architect",
+        "current",
+        "role",
+        "job",
+        "binaryfolks",
+        "2025",
+        "position",
+        "title",
+        "workforce",
+        "monitor",
+        "electron",
+        "onnx"
+      ]
+    },
+    {
+      "id": "role-technical-architect",
+      "title": "Technical Architect, BinaryFolks (Apr 2022 to May 2025)",
+      "section": "#timeline",
+      "text": "From April 2022 to May 2025 I was a Technical Architect at BinaryFolks Pvt Ltd. I designed microservices-based backend systems in Python (Flask) and Laravel, Redis caching strategies, Jenkins CI/CD pipelines and AWS deployments.",
+      "tags": [
+        "technical",
+        "architect",
+        "role",
+        "binaryfolks",
+        "2022",
+        "microservices",
+        "career",
+        "history"
+      ]
+    },
+    {
+      "id": "role-fullstack-binaryfolks",
+      "title": "Full Stack Engineer, BinaryFolks (Feb 2021 to Apr 2022)",
+      "section": "#timeline",
+      "text": "I joined BinaryFolks Pvt Ltd as a Full Stack Engineer in February 2021 and worked in that role until April 2022, building backend APIs and web applications across Laravel, Python and JavaScript frontends.",
+      "tags": [
+        "full stack",
+        "engineer",
+        "developer",
+        "binaryfolks",
+        "2021",
+        "joined",
+        "career",
+        "history"
+      ]
+    },
+    {
+      "id": "role-intlum",
+      "title": "Full Stack Engineer, Intlum Technology (Nov 2018 to Jan 2021)",
+      "section": "#timeline",
+      "text": "From November 2018 to January 2021 I was a Full Stack Engineer at Intlum Technology in Kolkata. I built scalable web applications and e-commerce platforms using Laravel and React, developed secure backend APIs, integrated third-party payment gateways, and improved frontend performance and SEO.",
+      "tags": [
+        "intlum",
+        "previous",
+        "earlier",
+        "ecommerce",
+        "e-commerce",
+        "payment",
+        "gateway",
+        "laravel",
+        "react",
+        "seo",
+        "career",
+        "history"
+      ]
+    },
+    {
+      "id": "role-appycodes",
+      "title": "Associate Developer, AppyCodes Digital (Oct 2016 to Nov 2018)",
+      "section": "#timeline",
+      "text": "I started my career in October 2016 as an Associate Developer at AppyCodes Digital in Siliguri, where I worked until November 2018. I developed dynamic web applications using PHP, WordPress and JavaScript, and improved performance through caching strategies and CDN integration.",
+      "tags": [
+        "appycodes",
+        "first",
+        "job",
+        "start",
+        "started",
+        "career",
+        "earlier",
+        "php",
+        "wordpress",
+        "siliguri",
+        "history"
+      ]
+    },
+    {
+      "id": "skills-languages",
+      "title": "Languages and frameworks",
+      "section": "#skills",
+      "text": "My main languages and frameworks are Python, PHP, Laravel, Flask, React, Vue.js and JavaScript.",
+      "tags": [
+        "skills",
+        "languages",
+        "frameworks",
+        "stack",
+        "python",
+        "php",
+        "laravel",
+        "flask",
+        "react",
+        "vue",
+        "javascript",
+        "tech",
+        "technology"
+      ]
+    },
+    {
+      "id": "skills-ai",
+      "title": "AI, ML and LLM skills",
+      "section": "#skills",
+      "text": "On the AI side I work with LLM integration (Claude and Gemini), RAG (retrieval-augmented generation), LangChain, prompt engineering, vector databases such as pgvector, and document processing pipelines.",
+      "tags": [
+        "ai",
+        "ml",
+        "llm",
+        "skills",
+        "claude",
+        "gemini",
+        "rag",
+        "langchain",
+        "prompt",
+        "vector",
+        "pgvector",
+        "machine learning",
+        "genai",
+        "generative"
+      ]
+    },
+    {
+      "id": "skills-backend",
+      "title": "Backend and architecture skills",
+      "section": "#skills",
+      "text": "For backend and architecture I design REST APIs, microservices, distributed systems and overall system design for high-volume workloads.",
+      "tags": [
+        "backend",
+        "architecture",
+        "rest",
+        "api",
+        "microservices",
+        "distributed",
+        "system design",
+        "skills"
+      ]
+    },
+    {
+      "id": "skills-cloud",
+      "title": "Cloud and DevOps skills",
+      "section": "#skills",
+      "text": "For cloud and DevOps I use AWS (EC2, S3, CloudFront, RDS and Lightsail), Docker, Jenkins and CI/CD pipelines.",
+      "tags": [
+        "cloud",
+        "devops",
+        "aws",
+        "ec2",
+        "s3",
+        "cloudfront",
+        "rds",
+        "lightsail",
+        "docker",
+        "jenkins",
+        "ci/cd",
+        "cicd",
+        "deployment",
+        "skills",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "skills-data",
+      "title": "Databases and caching skills",
+      "section": "#skills",
+      "text": "I work with PostgreSQL, MySQL, MongoDB and Redis for databases and caching.",
+      "tags": [
+        "database",
+        "databases",
+        "postgresql",
+        "postgres",
+        "mysql",
+        "mongodb",
+        "redis",
+        "caching",
+        "cache",
+        "sql",
+        "nosql",
+        "skills",
+        "data"
+      ]
+    },
+    {
+      "id": "skills-frontend",
+      "title": "Frontend and web skills",
+      "section": "#skills",
+      "text": "On the frontend I use React, Vue.js, Tailwind CSS, Bootstrap and WordPress, and I build Chrome extensions.",
+      "tags": [
+        "frontend",
+        "front-end",
+        "ui",
+        "tailwind",
+        "bootstrap",
+        "wordpress",
+        "chrome",
+        "extension",
+        "web",
+        "skills",
+        "react",
+        "vue"
+      ]
+    },
+    {
+      "id": "case-rag-problem",
+      "title": "Case study: LLM and RAG document pipeline",
+      "section": "#case-rag",
+      "text": "I built a RAG-based document pipeline for very large legal-style cases, where a single case can contain 45,000+ pages. Standard chat interfaces could not ingest that volume and gave ungrounded answers, so the goal was to let users query and summarise the full case reliably.",
+      "tags": [
+        "rag",
+        "document",
+        "pipeline",
+        "45000",
+        "pages",
+        "case study",
+        "large",
+        "legal",
+        "built",
+        "retrieval",
+        "project"
+      ]
+    },
+    {
+      "id": "case-rag-architecture",
+      "title": "RAG pipeline architecture",
+      "section": "#case-rag",
+      "text": "My pipeline goes OCR, then document parsing and chunking, then vector embeddings stored in PostgreSQL with pgvector, then retrieval, then an LLM (Claude or Gemini) through LangChain, and finally structured output such as case summaries, structured briefs and strategy notes. Ingestion runs as background jobs so there are no file size limitations.",
+      "tags": [
+        "rag",
+        "architecture",
+        "ocr",
+        "parsing",
+        "chunking",
+        "embedding",
+        "pgvector",
+        "langchain",
+        "claude",
+        "gemini",
+        "retrieval",
+        "pipeline",
+        "how",
+        "design"
+      ]
+    },
+    {
+      "id": "case-rag-decisions",
+      "title": "RAG pipeline key decisions",
+      "section": "#case-rag",
+      "text": "Key decisions I made in the RAG pipeline: keep vectors in PostgreSQL with pgvector so documents, metadata and embeddings live in one transactional store; process ingestion asynchronously in batches; attach page and document metadata to every chunk so answers can cite their source; and keep the LLM provider swappable between Claude and Gemini.",
+      "tags": [
+        "rag",
+        "decisions",
+        "pgvector",
+        "postgres",
+        "async",
+        "batch",
+        "metadata",
+        "citations",
+        "provider",
+        "claude",
+        "gemini",
+        "why"
+      ]
+    },
+    {
+      "id": "case-hallucination-problem",
+      "title": "Case study: reducing hallucinations",
+      "section": "#case-hallucination",
+      "text": "I reduced hallucinations in AI outputs by implementing structured prompt pipelines and controlled retrieval mechanisms, so answers are grounded in retrieved source text rather than the model's general knowledge.",
+      "tags": [
+        "hallucination",
+        "hallucinations",
+        "reduce",
+        "grounding",
+        "accuracy",
+        "reliable",
+        "prompt",
+        "pipeline",
+        "retrieval",
+        "trust",
+        "case study"
+      ]
+    },
+    {
+      "id": "case-hallucination-approach",
+      "title": "How I limit hallucinations",
+      "section": "#case-hallucination",
+      "text": "To limit hallucinations I constrain retrieval with relevance thresholds and metadata filters, break prompts into structured steps with fixed output schemas, instruct the model to answer only from supplied context and to say when information is missing, require citations back to source chunks, and validate outputs before they reach the user.",
+      "tags": [
+        "hallucination",
+        "hallucinations",
+        "prompt engineering",
+        "threshold",
+        "schema",
+        "citations",
+        "validation",
+        "context",
+        "structured",
+        "controlled retrieval",
+        "how"
+      ]
+    },
+    {
+      "id": "case-microservices",
+      "title": "Case study: microservices SaaS platform",
+      "section": "#case-microservices",
+      "text": "I architected and delivered enterprise SaaS platforms using microservices-based backends in Python (Flask) and Laravel. Services expose REST APIs, sit behind AWS infrastructure (EC2, RDS, S3, CloudFront), use Redis caching for performance and response times, and ship through Jenkins CI/CD pipelines with Docker.",
+      "tags": [
+        "microservices",
+        "saas",
+        "enterprise",
+        "flask",
+        "laravel",
+        "aws",
+        "redis",
+        "jenkins",
+        "docker",
+        "platform",
+        "case study",
+        "scalable"
+      ]
+    },
+    {
+      "id": "case-microservices-redis",
+      "title": "Redis caching strategy",
+      "section": "#case-microservices",
+      "text": "I implemented Redis-based caching strategies to improve system performance and response times, caching expensive reads and computed results with explicit expiry and invalidating keys when the underlying data changes.",
+      "tags": [
+        "redis",
+        "cache",
+        "caching",
+        "performance",
+        "speed",
+        "latency",
+        "response time",
+        "ttl",
+        "invalidation"
+      ]
+    },
+    {
+      "id": "case-microservices-cicd",
+      "title": "CI/CD and AWS deployment",
+      "section": "#case-microservices",
+      "text": "I designed and managed CI/CD pipelines using Jenkins, improving deployment reliability and speed, and I deploy and manage applications on AWS using EC2, S3, CloudFront, RDS and Lightsail.",
+      "tags": [
+        "jenkins",
+        "ci/cd",
+        "cicd",
+        "pipeline",
+        "deploy",
+        "deployment",
+        "aws",
+        "devops",
+        "release",
+        "docker"
+      ]
+    },
+    {
+      "id": "case-extensions",
+      "title": "Case study: Chrome extensions and side projects",
+      "section": "#case-extensions",
+      "text": "I build open-source Chrome extensions on Manifest V3, including a full-page screenshot extension that scrolls the page, captures each viewport and stitches the captures into one image, and a tab screenshot extension. I also create educational content on Chrome extension development fundamentals.",
+      "tags": [
+        "chrome",
+        "extension",
+        "extensions",
+        "manifest v3",
+        "mv3",
+        "screenshot",
+        "open source",
+        "side project",
+        "javascript"
+      ]
+    },
+    {
+      "id": "project-full-page-screenshot",
+      "title": "Full-Page Screenshots Chrome Extension (Manifest V3)",
+      "section": "#projects",
+      "text": "My Full-Page Screenshots Chrome Extension (Manifest V3) captures an entire webpage by scrolling and stitching screenshots together into a single PNG. It is open source on GitHub at github.com/hacess/chrome-extension-manifestv3-full-page-screenshot.",
+      "tags": [
+        "full page",
+        "screenshot",
+        "chrome",
+        "extension",
+        "manifest v3",
+        "github",
+        "open source",
+        "project",
+        "repo"
+      ]
+    },
+    {
+      "id": "project-screenshot",
+      "title": "Chrome Extension Manifest V3 Screenshot",
+      "section": "#projects",
+      "text": "My Chrome Extension Manifest V3 Screenshot project is a tutorial-style extension that captures the visible tab, available at github.com/hacess/chrome-extension-manifestv3-screenshot.",
+      "tags": [
+        "screenshot",
+        "chrome",
+        "extension",
+        "manifest v3",
+        "tutorial",
+        "capture",
+        "github",
+        "project",
+        "repo"
+      ]
+    },
+    {
+      "id": "project-kairo",
+      "title": "Kairo Lite Desktop Pet",
+      "section": "#projects",
+      "text": "I built Kairo Lite, a free, local-first desktop pet for macOS, Windows and Linux built with Electron. It roams the screen, shows reminders and take-a-break nudges, and reacts to the system: it dozes when you are idle, worries when the battery is low and gets bored when the CPU is pegged. There is no account, backend or telemetry. The little mascot on this site is inspired by it.",
+      "tags": [
+        "kairo",
+        "desktop pet",
+        "pet",
+        "mascot",
+        "electron",
+        "reminders",
+        "break",
+        "local-first",
+        "macos",
+        "windows",
+        "linux",
+        "side project",
+        "project"
+      ]
+    },
+    {
+      "id": "project-selenium",
+      "title": "Selenium web scraping",
+      "section": "#projects",
+      "text": "My selenium-web-scraping project uses Python and Selenium to extract data from Wikipedia pages.",
+      "tags": [
+        "selenium",
+        "scraping",
+        "scraper",
+        "python",
+        "wikipedia",
+        "automation",
+        "project"
+      ]
+    },
+    {
+      "id": "project-voice-browsing",
+      "title": "Voice browsing",
+      "section": "#projects",
+      "text": "My voice-browsing project is a JavaScript website that lets a user navigate to sections of the site simply by speaking the navigation commands.",
+      "tags": [
+        "voice",
+        "speech",
+        "browsing",
+        "navigation",
+        "javascript",
+        "accessibility",
+        "project"
+      ]
+    },
+    {
+      "id": "project-workforce-monitor",
+      "title": "Workforce Activity Monitor",
+      "section": "#timeline",
+      "text": "I designed a cross-platform Electron desktop app that classifies workforce activity every 60 seconds through a layered pipeline: active window polling, input tracking, deterministic app lookup and a small on-device vision model running in a worker thread, plus automation-spoof detection, secure IPC, SQLite persistence and a retrying sync queue.",
+      "tags": [
+        "electron",
+        "desktop",
+        "workforce",
+        "monitor",
+        "productivity",
+        "onnx",
+        "vision",
+        "sqlite",
+        "project",
+        "built"
+      ]
+    },
+    {
+      "id": "project-proctoring",
+      "title": "Secure assessment and proctoring app",
+      "section": "#projects",
+      "text": "I designed a security-hardened Electron app for proctored technical assessments, with on-device AI proctoring (face verification and zero-shot screenshot classification), a sandboxed JavaScript and Python code-execution engine, multi-display and device monitoring, and an audit trail uploaded to S3 with retries.",
+      "tags": [
+        "electron",
+        "proctoring",
+        "assessment",
+        "security",
+        "sandbox",
+        "code execution",
+        "ai",
+        "project",
+        "built",
+        "recruitment"
+      ]
+    },
+    {
+      "id": "project-solar",
+      "title": "Solar plant monitoring system",
+      "section": "#projects",
+      "text": "I built a full-stack solar plant monitoring system that simulates a 1 MWp facility, moving data from Modbus RTU through MQTT to a performance-ratio engine and a 5-state anomaly-detection state machine with Gemini-assisted root-cause diagnosis, a FastAPI and WebSocket live dashboard, and Docker Compose packaging.",
+      "tags": [
+        "solar",
+        "iot",
+        "mqtt",
+        "modbus",
+        "fastapi",
+        "websocket",
+        "anomaly",
+        "gemini",
+        "docker",
+        "monitoring",
+        "project",
+        "built"
+      ]
+    },
+    {
+      "id": "project-codedbrainy",
+      "title": "CodedBrainy",
+      "section": "#projects",
+      "text": "I founded CodedBrainy (codedbrainy.com), a technical platform and blog focused on full-stack development and AI systems, built on an SEO-optimised WordPress architecture.",
+      "tags": [
+        "codedbrainy",
+        "blog",
+        "website",
+        "platform",
+        "wordpress",
+        "seo",
+        "founded",
+        "writing"
+      ]
+    },
+    {
+      "id": "decision-pgvector",
+      "title": "Why pgvector over a dedicated vector database",
+      "section": "#decision-pgvector",
+      "text": "I chose pgvector over a dedicated vector database because the documents, metadata and embeddings can live in one PostgreSQL store, which keeps filtering, joins and transactions simple, avoids running and syncing another system, and fits comfortably at the scale of per-case document sets.",
+      "tags": [
+        "pgvector",
+        "vector database",
+        "why",
+        "decision",
+        "postgres",
+        "pinecone",
+        "choice",
+        "tradeoff",
+        "vector"
+      ]
+    },
+    {
+      "id": "decision-redis",
+      "title": "Redis caching strategy decision",
+      "section": "#decision-redis",
+      "text": "For caching I prefer a cache-aside pattern in Redis with explicit TTLs and event-based invalidation over write-through caching, because it keeps the database as the source of truth, degrades gracefully if Redis is unavailable, and only caches data that is actually read.",
+      "tags": [
+        "redis",
+        "cache-aside",
+        "caching",
+        "strategy",
+        "decision",
+        "why",
+        "ttl",
+        "write-through",
+        "tradeoff"
+      ]
+    },
+    {
+      "id": "decision-flask-laravel",
+      "title": "Why Flask for AI services alongside Laravel",
+      "section": "#decision-flask-laravel",
+      "text": "I run AI and document-processing services in Python (Flask) next to Laravel for core product features, rather than forcing everything into one stack, because Python has the strongest ecosystem for LLM, embedding and OCR work while Laravel is very productive for business logic, admin and auth.",
+      "tags": [
+        "flask",
+        "laravel",
+        "python",
+        "php",
+        "decision",
+        "why",
+        "polyglot",
+        "stack",
+        "microservices",
+        "tradeoff"
+      ]
+    },
+    {
+      "id": "decision-on-device",
+      "title": "Why an on-device model over a cloud API",
+      "section": "#decision-on-device",
+      "text": "For workforce activity classification I chose a layered pipeline that tries a deterministic app lookup first and only then runs a small Qwen 0.8B ONNX vision model in a dedicated worker thread, instead of sending screenshots to a cloud API. Most activity is resolved by the cheap lookup, the model runs locally with no per-call API cost, and the worker thread keeps the app responsive.",
+      "tags": [
+        "on-device",
+        "local",
+        "onnx",
+        "qwen",
+        "vision",
+        "model",
+        "cloud",
+        "api",
+        "decision",
+        "why",
+        "electron",
+        "edge",
+        "inference",
+        "tradeoff",
+        "cost"
+      ]
+    },
+    {
+      "id": "decision-mqtt",
+      "title": "Why store-and-forward and an alert state machine",
+      "section": "#decision-mqtt",
+      "text": "In my solar monitoring system I chose an async MQTT gateway with a store-and-forward ring buffer persisted to JSONL, so no data is lost during broker disconnections. Instead of plain threshold alerts, anomalies go through a 5-state machine (Normal, Detecting, Confirmed, Diagnosed, Recovering) with LLM root-cause diagnosis and a 30-minute cooldown that prevents alert storms.",
+      "tags": [
+        "mqtt",
+        "store-and-forward",
+        "buffer",
+        "alert",
+        "alerts",
+        "anomaly",
+        "state machine",
+        "fsm",
+        "cooldown",
+        "decision",
+        "why",
+        "iot",
+        "solar",
+        "data loss",
+        "tradeoff"
+      ]
+    },
+    {
+      "id": "site-how-chat-works",
+      "title": "How this chat works",
+      "section": "#hero",
+      "text": "This chat runs entirely in your browser with no LLM and no API cost. It ranks my own content with BM25 keyword retrieval, keeps only chunks above a relevance threshold, and answers with extracted sentences plus source links, so it cannot invent facts. If nothing relevant is found it says so.",
+      "tags": [
+        "chat",
+        "how",
+        "works",
+        "bm25",
+        "retrieval",
+        "assistant",
+        "bot",
+        "this site",
+        "portfolio",
+        "search"
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Contact and links",
+      "section": "#contact",
+      "text": "The best way to reach me is by email, using the contact form at the bottom of this page. You can also find me on LinkedIn at linkedin.com/in/chandan-chakraborty-cse, on GitHub at github.com/hacess, and on my site codedbrainy.com.",
+      "tags": [
+        "contact",
+        "email",
+        "hire",
+        "reach",
+        "linkedin",
+        "github",
+        "connect",
+        "message",
+        "touch",
+        "available",
+        "freelance",
+        "work together"
+      ]
+    }
+  ]
+}

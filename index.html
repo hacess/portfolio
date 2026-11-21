@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chandan Chakraborty · Senior Technical Architect</title>
+  <meta name="description" content="Chandan Chakraborty, Senior Technical Architect in Kolkata, India. 10 years building scalable backends, LLM and RAG pipelines, and microservices on Python, Laravel and AWS. Ask my portfolio anything.">
+  <meta name="author" content="Chandan Chakraborty">
+  <link rel="canonical" href="https://hacess.github.io/portfolio/">
+  <meta name="theme-color" content="#f4f7fb" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a1424" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Chandan Chakraborty · Senior Technical Architect">
+  <meta property="og:description" content="Backend and AI systems architect: LLM + RAG pipelines, microservices, AWS. Ask my portfolio a question.">
+  <meta property="og:url" content="https://hacess.github.io/portfolio/">
+  <meta property="og:image" content="https://hacess.github.io/portfolio/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Blueprint-style card: Chandan Chakraborty, Senior Technical Architect">
+  <meta property="profile:first_name" content="Chandan">
+  <meta property="profile:last_name" content="Chakraborty">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Chandan Chakraborty · Senior Technical Architect">
+  <meta name="twitter:description" content="Backend and AI systems architect: LLM + RAG pipelines, microservices, AWS.">
+  <meta name="twitter:image" content="https://hacess.github.io/portfolio/assets/og-image.png">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script>
+    /* Apply saved theme before first paint to avoid a flash. */
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Chandan Chakraborty",
+    "jobTitle": "Senior Technical Architect",
+    "worksFor": { "@type": "Organization", "name": "BinaryFolks Pvt Ltd" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Kolkata", "addressRegion": "West Bengal", "addressCountry": "IN" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Surendra Institute of Engineering and Management" },
+    "url": "https://hacess.github.io/portfolio/",
+    "sameAs": [
+      "https://github.com/hacess",
+      "https://www.linkedin.com/in/chandan-chakraborty-cse/",
+      "https://www.codedbrainy.com/"
+    ],
+    "knowsAbout": ["Software architecture", "Large language models", "Retrieval-augmented generation", "Microservices", "Python", "Laravel", "AWS", "PostgreSQL", "Redis"]
+  }
+  </script>
+
+  <script src="js/config.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/chat.js" defer></script>
+  <script src="js/mascot.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#hero" aria-label="Chandan Chakraborty, back to top">
+        <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="1.5" y="1.5" width="29" height="29" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M14 10h-3.5A3.5 3.5 0 0 0 7 13.5v5a3.5 3.5 0 0 0 3.5 3.5H14M25 10h-3.5a3.5 3.5 0 0 0-3.5 3.5v5a3.5 3.5 0 0 0 3.5 3.5H25" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        <span class="brand__text">chandan<span class="accent">.</span>arch</span>
+      </a>
+      <nav class="site-nav" aria-label="Sections">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#timeline">Career</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#case-studies">Case studies</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#decisions">Decisions</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-tools">
+        <button class="icon-btn" id="pet-toggle" type="button" aria-pressed="true" title="Show or hide the mascot">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9V5l3 3h8l3-3v4M4 10h16v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="9" cy="14" r="1.3" fill="currentColor"/><circle cx="15" cy="14" r="1.3" fill="currentColor"/></svg>
+          <span class="visually-hidden">Mascot</span>
+        </button>
+        <button class="icon-btn" id="theme-toggle" type="button" title="Toggle light or dark theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          <span class="visually-hidden" id="theme-label">Switch theme</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- 1. HERO -->
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">// senior technical architect · kolkata, in</p>
+          <h1 id="hero-title">Chandan Chakraborty</h1>
+          <p class="hero-role">Senior Technical Architect at BinaryFolks</p>
+          <p class="hero-pitch">I design backend and AI systems that stay <strong>grounded</strong>, <strong>fast</strong> and <strong>reliable</strong> at scale, from RAG pipelines over 45,000+ page cases to microservices on AWS.</p>
+          <div class="hero-actions">
+            <a class="btn btn--primary" href="#chat-input" data-focus-chat>Ask my portfolio</a>
+            <a class="btn btn--ghost" href="assets/chandan_chakraborty_resume.pdf" download>Download resume</a>
+          </div>
+          <dl class="hero-stats">
+            <div><dt>Experience</dt><dd>10 yrs</dd></div>
+            <div><dt>Focus</dt><dd>LLM · RAG · APIs</dd></div>
+            <div><dt>Base</dt><dd>Kolkata, IN</dd></div>
+          </dl>
+        </div>
+
+        <div class="chat card" aria-labelledby="chat-title">
+          <div class="card__bar">
+            <span class="dots-deco" aria-hidden="true"><i></i><i></i><i></i></span>
+            <h2 id="chat-title" class="card__title">ask-my-portfolio</h2>
+            <span class="badge" title="Runs entirely in your browser">offline · no LLM</span>
+          </div>
+          <div id="chat-log" class="chat__log" aria-label="Conversation">
+            <div id="chat-empty" class="chat__empty">
+              <p>Ask me about my experience, projects or architecture decisions. Answers are quoted from this site, with sources.</p>
+            </div>
+          </div>
+          <p id="chat-status" class="visually-hidden" aria-live="polite" aria-atomic="true"></p>
+          <div class="chat__chips" aria-label="Suggested questions">
+            <button type="button" class="chip" data-ask="What have you built with RAG?">What have you built with RAG?</button>
+            <button type="button" class="chip" data-ask="How do you reduce hallucinations?">How do you reduce hallucinations?</button>
+            <button type="button" class="chip" data-ask="Why pgvector over a dedicated vector database?">Why pgvector?</button>
+            <button type="button" class="chip" data-ask="Do you lead a team?">Do you lead a team?</button>
+          </div>
+          <p id="chat-hint" class="visually-hidden">Press Enter to send.</p>
+          <form id="chat-form" class="chat__form" autocomplete="off">
+            <label for="chat-input" class="visually-hidden">Your question</label>
+            <input id="chat-input" name="q" type="text" placeholder="Ask a question…" aria-describedby="chat-hint" maxlength="300" enterkeyhint="send">
+            <button type="submit" class="btn btn--primary btn--sm">Send</button>
+          </form>
+          <details class="how">
+            <summary>How this works</summary>
+            <ol class="how__steps">
+              <li><b>Knowledge base.</b> My resume, case studies and project notes are split into ~40 small chunks in <code>data/knowledge.json</code>, each tagged with the section it came from.</li>
+              <li><b>Guardrails first.</b> Questions are length-capped, and anything that looks like an instruction ("ignore previous…", "reveal your prompt") is treated as data and politely declined.</li>
+              <li><b>Retrieval.</b> The question is tokenized, stemmed and expanded with a small synonym map, then ranked with <abbr title="Okapi BM25, a classic keyword-relevance ranking function">BM25</abbr> in your browser.</li>
+              <li><b>Relevance threshold.</b> Chunks below a minimum score are dropped. If nothing survives, I say I don't know instead of guessing.</li>
+              <li><b>Extractive answer.</b> The reply is built only from sentences I wrote, never generated, and every answer links its sources.</li>
+            </ol>
+            <p class="how__note">It's the same principle I use in production RAG systems (controlled retrieval, grounded context, cite or abstain), taken to the extreme: no model, no API key, no cost, and nothing to hallucinate.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT -->
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="section-num">01</p>
+          <h2 id="about-title">About</h2>
+        </header>
+        <div class="about-grid">
+          <div class="prose">
+            <p>I'm a Senior Technical Architect with <strong>10 years</strong> of experience building scalable backend systems and AI-powered applications. I specialize in LLM-integrated architectures, RAG pipelines and microservices-based systems using Python, Laravel and cloud platforms.</p>
+            <p>I deliver enterprise SaaS products with a strong focus on automation, scalability and reliability. I also <strong>lead engineering teams</strong>, running code reviews, architectural planning and system-design decisions.</p>
+          </div>
+          <dl class="spec-sheet">
+            <div><dt>Location</dt><dd>Kolkata, West Bengal, India</dd></div>
+            <div><dt>Current</dt><dd>Senior Technical Architect, BinaryFolks Pvt Ltd</dd></div>
+            <div><dt>Experience</dt><dd>10 years (since Oct 2016)</dd></div>
+            <div><dt>Leadership</dt><dd>Leads engineering teams: code reviews, architecture, system design</dd></div>
+            <div><dt>Education</dt><dd>B.Tech, Computer Science, Surendra Institute of Engineering and Management (2013 to 2017)</dd></div>
+            <div><dt>Certifications</dt><dd>AMCAT Certified Data Processing Specialist · Python from Beginner to Expert</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. TIMELINE -->
+    <section id="timeline" class="section" aria-labelledby="timeline-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="section-num">02</p>
+          <h2 id="timeline-title">Career timeline</h2>
+        </header>
+        <ol class="timeline">
+          <li class="tl-item tl-item--current">
+            <p class="tl-date"><time datetime="2025-04">Apr 2025</time> to present</p>
+            <h3 class="tl-role">Senior Technical Architect</h3>
+            <p class="tl-org">BinaryFolks Pvt Ltd · Kolkata</p>
+            <p>Built a <strong>Workforce Activity Monitor</strong>: a cross-platform Electron desktop app that classifies activity every 60 seconds through a layered pipeline (active-window polling, input tracking, deterministic app lookup, then an on-device Qwen 0.8B ONNX vision model in a worker thread), with automation-spoof detection, a session-token-gated IPC bridge, OS keychain credentials, SQLite persistence, Google Calendar and Outlook context, and a retrying sync queue.</p>
+            <ul class="tags" aria-label="Tech stack"><li>Electron</li><li>ONNX</li><li>Qwen 0.8B</li><li>Worker threads</li><li>SQLite</li><li>keytar</li><li>OAuth</li><li>SSE</li></ul>
+          </li>
+          <li class="tl-item">
+            <p class="tl-date"><time datetime="2022-04">Apr 2022</time> to <time datetime="2025-05">May 2025</time></p>
+            <h3 class="tl-role">Technical Architect</h3>
+            <p class="tl-org">BinaryFolks Pvt Ltd · Kolkata</p>
+            <p>Designed microservices-based SaaS backends in Python (Flask) and Laravel, Redis caching strategies, Jenkins CI/CD pipelines and AWS deployments.</p>
+            <ul class="tags" aria-label="Tech stack"><li>Laravel</li><li>Flask</li><li>Redis</li><li>PostgreSQL</li><li>Jenkins</li><li>Docker</li><li>AWS</li></ul>
+          </li>
+          <li class="tl-item">
+            <p class="tl-date"><time datetime="2021-02">Feb 2021</time> to <time datetime="2022-04">Apr 2022</time></p>
+            <h3 class="tl-role">Full Stack Engineer</h3>
+            <p class="tl-org">BinaryFolks Pvt Ltd · Kolkata</p>
+            <p>Built backend APIs and web applications end to end.</p>
+            <ul class="tags" aria-label="Tech stack"><li>Laravel</li><li>PHP</li><li>React</li><li>Vue.js</li><li>MySQL</li></ul>
+          </li>
+          <li class="tl-item tl-item--earlier">
+            <p class="tl-date"><time datetime="2018-11">Nov 2018</time> to <time datetime="2021-01">Jan 2021</time></p>
+            <h3 class="tl-role">Full Stack Engineer</h3>
+            <p class="tl-org">Intlum Technology · Kolkata</p>
+            <p>Web applications and e-commerce platforms, secure APIs, payment-gateway integrations, frontend performance and SEO.</p>
+            <ul class="tags" aria-label="Tech stack"><li>Laravel</li><li>React</li><li>REST APIs</li></ul>
+          </li>
+          <li class="tl-item tl-item--earlier">
+            <p class="tl-date"><time datetime="2016-10">Oct 2016</time> to <time datetime="2018-11">Nov 2018</time></p>
+            <h3 class="tl-role">Associate Developer</h3>
+            <p class="tl-org">AppyCodes Digital · Siliguri</p>
+            <p>Dynamic web applications, caching and CDN integration for performance.</p>
+            <ul class="tags" aria-label="Tech stack"><li>PHP</li><li>WordPress</li><li>JavaScript</li></ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 4. SKILLS SYSTEM DIAGRAM -->
+    <section id="skills" class="section" aria-labelledby="skills-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="section-num">03</p>
+          <h2 id="skills-title">Skills as a system</h2>
+          <p class="section-lede">Each box is a subsystem. Select one to expand it.</p>
+        </header>
+        <div class="sysmap">
+          <svg class="sysmap__wires" viewBox="0 0 300 300" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M150 150 L50 55 M150 150 L150 55 M150 150 L250 55 M150 150 L50 245 M150 150 L250 245"/>
+          </svg>
+          <button type="button" class="sysnode" data-skill="backend" aria-expanded="false" aria-controls="skill-panel" style="--pos:1">
+            <span class="sysnode__id">svc-01</span><span class="sysnode__name">Backend</span>
+          </button>
+          <button type="button" class="sysnode" data-skill="ai" aria-expanded="false" aria-controls="skill-panel" style="--pos:2">
+            <span class="sysnode__id">svc-02</span><span class="sysnode__name">AI / LLM</span>
+          </button>
+          <button type="button" class="sysnode" data-skill="frontend" aria-expanded="false" aria-controls="skill-panel" style="--pos:3">
+            <span class="sysnode__id">svc-03</span><span class="sysnode__name">Frontend</span>
+          </button>
+          <div class="sysnode sysnode--core" aria-hidden="true">
+            <span class="sysnode__id">core</span><span class="sysnode__name">architect</span>
+          </div>
+          <button type="button" class="sysnode" data-skill="cloud" aria-expanded="false" aria-controls="skill-panel" style="--pos:4">
+            <span class="sysnode__id">svc-04</span><span class="sysnode__name">Cloud / DevOps</span>
+          </button>
+          <button type="button" class="sysnode" data-skill="data" aria-expanded="false" aria-controls="skill-panel" style="--pos:5">
+            <span class="sysnode__id">svc-05</span><span class="sysnode__name">Data / Caching</span>
+          </button>
+        </div>
+        <div id="skill-panel" class="skill-panel" hidden tabindex="-1">
+          <h3 class="skill-panel__title"></h3>
+          <ul class="tags skill-panel__list"></ul>
+          <p class="skill-panel__link"></p>
+        </div>
+        <template id="skill-data">
+          <div data-skill="backend" data-title="Backend and architecture" data-link="#case-microservices" data-link-text="Microservices SaaS platform">Python|PHP|Laravel|Flask|REST APIs|Microservices|Distributed systems|System design</div>
+          <div data-skill="ai" data-title="AI, ML and LLM" data-link="#case-rag" data-link-text="LLM and RAG document pipeline">Claude integration|Gemini integration|RAG|LangChain|Prompt engineering|pgvector|Document processing pipelines</div>
+          <div data-skill="frontend" data-title="Frontend and web" data-link="#case-extensions" data-link-text="Chrome extensions and side projects">JavaScript|React|Vue.js|Tailwind CSS|Bootstrap|WordPress|Chrome extensions (MV3)</div>
+          <div data-skill="cloud" data-title="Cloud and DevOps" data-link="#case-microservices" data-link-text="Microservices SaaS platform">AWS EC2|AWS S3|CloudFront|RDS|Lightsail|Docker|Jenkins|CI/CD</div>
+          <div data-skill="data" data-title="Databases and caching" data-link="#decision-redis" data-link-text="Redis caching decision">PostgreSQL|pgvector|MySQL|MongoDB|Redis</div>
+        </template>
+      </div>
+    </section>
+
+    <!-- 5. CASE STUDIES -->
+    <section id="case-studies" class="section" aria-labelledby="cases-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="section-num">04</p>
+          <h2 id="cases-title">Case studies</h2>
+          <p class="section-lede">Generalized from real work. No client names, no confidential details.</p>
+        </header>
+
+        <article id="case-rag" class="case card" aria-labelledby="case-rag-title">
+          <p class="case__tag">case/01 · llm · rag</p>
+          <h3 id="case-rag-title">LLM and RAG pipeline for very large document sets</h3>
+          <div class="case__grid">
+            <div class="case__body">
+              <h4>Problem</h4>
+              <p>Legal-style cases arrive as huge bundles of scanned and digital documents, up to <strong>45,000+ pages per case</strong>. Off-the-shelf chat tools hit file-size limits and answered without grounding, so reviewers couldn't trust the output.</p>
+              <h4>Constraints</h4>
+              <ul>
+                <li>No practical file-size ceiling; mixed scanned and native PDFs.</li>
+                <li>Answers must be traceable to source pages.</li>
+                <li>Sensitive documents: data stays inside our own infrastructure and providers.</li>
+                <li>Output must be structured (summaries, briefs, strategy notes), not free chat.</li>
+              </ul>
+            </div>
+            <figure class="case__diagram">
+              <svg class="diagram" viewBox="0 0 628 222" role="img" aria-labelledby="rag-t rag-d"><title id="rag-t">RAG document pipeline</title><desc id="rag-d">Documents go through OCR, parsing and chunking, embedding and storage in pgvector. A question retrieves top-k chunks from pgvector, a prompt builder adds only that context, an LLM (Claude or Gemini) produces structured output.</desc><defs><marker id="ah-rag" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L8 4L0 8z" class="d-head"/></marker></defs><text class="d-lbl" x="4" y="16" text-anchor="start">INGEST</text><rect class="d-box" x="4" y="26" width="108" height="40" rx="4"/><text class="d-txt" x="58.0" y="43.5">Documents</text><text class="d-sub" x="58.0" y="56.5">PDF / scans</text><path class="d-line" d="M112 46 H130" marker-end="url(#ah-rag)"/><rect class="d-box" x="132" y="26" width="108" height="40" rx="4"/><text class="d-txt" x="186.0" y="50.0">OCR</text><path class="d-line" d="M240 46 H258" marker-end="url(#ah-rag)"/><rect class="d-box" x="260" y="26" width="108" height="40" rx="4"/><text class="d-txt" x="314.0" y="43.5">Parse + chunk</text><text class="d-sub" x="314.0" y="56.5">page metadata</text><path class="d-line" d="M368 46 H386" marker-end="url(#ah-rag)"/><rect class="d-box" x="388" y="26" width="108" height="40" rx="4"/><text class="d-txt" x="442.0" y="50.0">Embed</text><path class="d-line" d="M496 46 H514" marker-end="url(#ah-rag)"/><rect class="d-box d-box--store" x="516" y="26" width="108" height="40" rx="4"/><text class="d-txt" x="570.0" y="43.5">pgvector</text><text class="d-sub" x="570.0" y="56.5">PostgreSQL</text><text class="d-lbl" x="4" y="142" text-anchor="start">QUERY</text><rect class="d-box" x="4" y="152" width="108" height="40" rx="4"/><text class="d-txt" x="58.0" y="176.0">Question</text><path class="d-line" d="M112 172 H130" marker-end="url(#ah-rag)"/><rect class="d-box" x="132" y="152" width="108" height="40" rx="4"/><text class="d-txt" x="186.0" y="169.5">Retrieve top-k</text><text class="d-sub" x="186.0" y="182.5">+ filters</text><path class="d-line" d="M240 172 H258" marker-end="url(#ah-rag)"/><rect class="d-box" x="260" y="152" width="108" height="40" rx="4"/><text class="d-txt" x="314.0" y="169.5">Prompt builder</text><text class="d-sub" x="314.0" y="182.5">context only</text><path class="d-line" d="M368 172 H386" marker-end="url(#ah-rag)"/><rect class="d-box d-box--accent" x="388" y="152" width="108" height="40" rx="4"/><text class="d-txt" x="442.0" y="169.5">LLM</text><text class="d-sub" x="442.0" y="182.5">Claude / Gemini</text><path class="d-line" d="M496 172 H514" marker-end="url(#ah-rag)"/><rect class="d-box" x="516" y="152" width="108" height="40" rx="4"/><text class="d-txt" x="570.0" y="169.5">Structured output</text><text class="d-sub" x="570.0" y="182.5">summary · brief</text><path class="d-line d-dash" d="M570 66 V110 H186 V150" marker-end="url(#ah-rag)"/><text class="d-lbl" x="380" y="104" text-anchor="middle">similarity search</text><text class="d-lbl" x="442" y="214" text-anchor="middle">via LangChain</text></svg>
+              <figcaption>Ingestion (top) and query path (bottom).</figcaption>
+            </figure>
+          </div>
+          <h4>Key decisions</h4>
+          <ul>
+            <li><b>pgvector inside PostgreSQL</b> instead of a separate vector store, so chunks, metadata and embeddings share one transactional database (see the <a href="#decision-pgvector">decision log</a>).</li>
+            <li><b>OCR → parse → chunk → embed as a pipeline</b> of resumable steps, so a 45,000-page case can be processed without file-size limits.</li>
+            <li><b>Page-level metadata on every chunk</b>, so every answer can cite where it came from.</li>
+            <li><b>Provider-agnostic LLM layer</b> via LangChain, so Claude or Gemini can be used per task.</li>
+          </ul>
+          <h4>Outcome</h4>
+          <p>Full cases up to 45,000+ pages can be queried and turned into case summaries, structured briefs and strategy notes, with noticeably fewer hallucinations than a general-purpose chat interface.</p>
+        </article>
+
+        <article id="case-hallucination" class="case card" aria-labelledby="case-hall-title">
+          <p class="case__tag">case/02 · reliability · prompts</p>
+          <h3 id="case-hall-title">Reducing hallucinations with structured prompts and controlled retrieval</h3>
+          <div class="case__grid">
+            <div class="case__body">
+              <h4>Problem</h4>
+              <p>Even with retrieval in place, a single "here is some context, answer the question" prompt produced confident answers that weren't supported by the documents. In a document-heavy domain that's worse than no answer.</p>
+              <h4>Constraints</h4>
+              <ul>
+                <li>Users need to verify every claim quickly.</li>
+                <li>Saying "not found" is acceptable; inventing facts is not.</li>
+                <li>Must work across more than one LLM provider.</li>
+              </ul>
+            </div>
+            <figure class="case__diagram">
+              <svg class="diagram" viewBox="0 0 566 226" role="img" aria-labelledby="hall-t hall-d"><title id="hall-t">Hallucination controls</title><desc id="hall-d">A question goes through controlled retrieval with a score threshold, then a structured prompt with an output schema, then the LLM, then a validator that checks schema and citations. Passing answers are shown with citations; failures or missing evidence lead to an explicit abstain.</desc><defs><marker id="ah-hall" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L8 4L0 8z" class="d-head"/></marker></defs><rect class="d-box" x="4" y="26" width="120" height="40" rx="4"/><text class="d-txt" x="64.0" y="50.0">Question</text><path class="d-line" d="M124 46 H148" marker-end="url(#ah-hall)"/><rect class="d-box" x="150" y="26" width="120" height="40" rx="4"/><text class="d-txt" x="210.0" y="43.5">Controlled</text><text class="d-sub" x="210.0" y="56.5">retrieval</text><path class="d-line" d="M270 46 H294" marker-end="url(#ah-hall)"/><rect class="d-box" x="296" y="26" width="120" height="40" rx="4"/><text class="d-txt" x="356.0" y="43.5">Structured</text><text class="d-sub" x="356.0" y="56.5">prompt + schema</text><path class="d-line" d="M416 46 H440" marker-end="url(#ah-hall)"/><rect class="d-box d-box--accent" x="442" y="26" width="120" height="40" rx="4"/><text class="d-txt" x="502.0" y="50.0">LLM</text><text class="d-lbl" x="210" y="18" text-anchor="middle">score ≥ threshold · filters</text><rect class="d-box" x="442" y="140" width="120" height="40" rx="4"/><text class="d-txt" x="502.0" y="157.5">Validator</text><text class="d-sub" x="502.0" y="170.5">schema · citations</text><path class="d-line" d="M502 66 V138" marker-end="url(#ah-hall)"/><rect class="d-box d-box--ok" x="240" y="140" width="120" height="40" rx="4"/><text class="d-txt" x="300.0" y="157.5">Answer</text><text class="d-sub" x="300.0" y="170.5">with citations</text><path class="d-line" d="M442 160 H362" marker-end="url(#ah-hall)"/><text class="d-lbl" x="402" y="152" text-anchor="middle">pass</text><rect class="d-box d-box--warn" x="4" y="140" width="120" height="40" rx="4"/><text class="d-txt" x="64.0" y="157.5">Abstain</text><text class="d-sub" x="64.0" y="170.5">“not in sources”</text><path class="d-line d-dash" d="M502 180 V206 H64 V182" marker-end="url(#ah-hall)"/><text class="d-lbl" x="290" y="218" text-anchor="middle">fail / no evidence</text><path class="d-line d-dash" d="M210 66 V100 H64 V138" marker-end="url(#ah-hall)"/><text class="d-lbl" x="108" y="94" text-anchor="middle">no match</text></svg>
+              <figcaption>Answer only when the evidence passes; otherwise abstain.</figcaption>
+            </figure>
+          </div>
+          <h4>Key decisions</h4>
+          <ul>
+            <li><b>Controlled retrieval:</b> relevance thresholds and metadata filters, so weak matches never reach the prompt.</li>
+            <li><b>Structured prompt pipeline:</b> break the task into steps with fixed output schemas instead of one open-ended prompt.</li>
+            <li><b>Context-only instructions:</b> the model is told to answer only from supplied chunks and to say when information is missing.</li>
+            <li><b>Citations and validation:</b> outputs must reference source chunks and match the schema before they reach the user.</li>
+          </ul>
+          <h4>Outcome</h4>
+          <p>Hallucination issues were reduced compared with standard LLM interfaces through RAG-based grounding and prompt engineering.</p>
+          <p class="case__aside">The chat on this page uses the same principle in miniature: retrieve, threshold, cite, or abstain.</p>
+        </article>
+
+        <article id="case-microservices" class="case card" aria-labelledby="case-ms-title">
+          <p class="case__tag">case/03 · saas · platform</p>
+          <h3 id="case-ms-title">Microservices SaaS platform with Redis caching, Jenkins CI/CD and AWS</h3>
+          <div class="case__grid">
+            <div class="case__body">
+              <h4>Problem</h4>
+              <p>Enterprise SaaS products needed to combine classic product features (accounts, admin, billing-style workflows) with compute-heavy AI and document services, without one part slowing down or destabilizing the other.</p>
+              <h4>Constraints</h4>
+              <ul>
+                <li>Mixed workloads: fast CRUD next to long-running processing.</li>
+                <li>A small team that has to ship safely and often.</li>
+                <li>Predictable cost on AWS.</li>
+              </ul>
+            </div>
+            <figure class="case__diagram">
+              <svg class="diagram" viewBox="0 0 636 252" role="img" aria-labelledby="ms-t ms-d"><title id="ms-t">Microservices SaaS on AWS</title><desc id="ms-d">Clients reach CloudFront and a load balancer on EC2, which routes to a Laravel core service, a Flask AI and document service and other REST services. Services use Redis for cache-aside caching, RDS for PostgreSQL or MySQL, and S3 for files. Code is delivered through git, Jenkins build and test, Docker images and deployment to EC2 or Lightsail.</desc><defs><marker id="ah-ms" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L8 4L0 8z" class="d-head"/></marker></defs><rect class="d-box" x="4" y="70" width="96" height="40" rx="4"/><text class="d-txt" x="52.0" y="87.5">Clients</text><text class="d-sub" x="52.0" y="100.5">web · API</text><rect class="d-box" x="120" y="70" width="100" height="40" rx="4"/><text class="d-txt" x="170.0" y="87.5">CloudFront</text><text class="d-sub" x="170.0" y="100.5">+ S3 assets</text><rect class="d-box" x="240" y="70" width="100" height="40" rx="4"/><text class="d-txt" x="290.0" y="87.5">Load balancer</text><text class="d-sub" x="290.0" y="100.5">EC2</text><path class="d-line" d="M100 90 H118" marker-end="url(#ah-ms)"/><path class="d-line" d="M220 90 H238" marker-end="url(#ah-ms)"/><rect class="d-box" x="370" y="10" width="110" height="40" rx="4"/><text class="d-txt" x="425.0" y="27.5">Laravel</text><text class="d-sub" x="425.0" y="40.5">core product</text><path class="d-line" d="M340 90 C355 90 352 30 368 30" marker-end="url(#ah-ms)"/><rect class="d-box" x="370" y="70" width="110" height="40" rx="4"/><text class="d-txt" x="425.0" y="87.5">Flask</text><text class="d-sub" x="425.0" y="100.5">AI / documents</text><path class="d-line" d="M340 90 C355 90 352 90 368 90" marker-end="url(#ah-ms)"/><rect class="d-box" x="370" y="130" width="110" height="40" rx="4"/><text class="d-txt" x="425.0" y="147.5">Other services</text><text class="d-sub" x="425.0" y="160.5">REST</text><path class="d-line" d="M340 90 C355 90 352 150 368 150" marker-end="url(#ah-ms)"/><path class="d-line" d="M480 30 H500 M480 90 H500 M480 150 H500 M500 30 V150"/><rect class="d-box d-box--accent" x="522" y="10" width="110" height="40" rx="4"/><text class="d-txt" x="577.0" y="27.5">Redis</text><text class="d-sub" x="577.0" y="40.5">cache-aside</text><path class="d-line" d="M500 30 H520" marker-end="url(#ah-ms)"/><rect class="d-box d-box--store" x="522" y="70" width="110" height="40" rx="4"/><text class="d-txt" x="577.0" y="87.5">RDS</text><text class="d-sub" x="577.0" y="100.5">PostgreSQL / MySQL</text><path class="d-line" d="M500 90 H520" marker-end="url(#ah-ms)"/><rect class="d-box d-box--store" x="522" y="130" width="110" height="40" rx="4"/><text class="d-txt" x="577.0" y="147.5">S3</text><text class="d-sub" x="577.0" y="160.5">files</text><path class="d-line" d="M500 150 H520" marker-end="url(#ah-ms)"/><text class="d-lbl" x="4" y="196" text-anchor="start">DELIVER</text><rect class="d-box" x="4" y="206" width="108" height="40" rx="4"/><text class="d-txt" x="58.0" y="230.0">git push</text><path class="d-line" d="M112 226 H128" marker-end="url(#ah-ms)"/><rect class="d-box" x="130" y="206" width="108" height="40" rx="4"/><text class="d-txt" x="184.0" y="223.5">Jenkins</text><text class="d-sub" x="184.0" y="236.5">build · test</text><path class="d-line" d="M238 226 H254" marker-end="url(#ah-ms)"/><rect class="d-box" x="256" y="206" width="108" height="40" rx="4"/><text class="d-txt" x="310.0" y="230.0">Docker image</text><path class="d-line" d="M364 226 H380" marker-end="url(#ah-ms)"/><rect class="d-box" x="382" y="206" width="108" height="40" rx="4"/><text class="d-txt" x="436.0" y="223.5">Deploy</text><text class="d-sub" x="436.0" y="236.5">EC2 / Lightsail</text><path class="d-line d-dash" d="M436 206 V172" marker-end="url(#ah-ms)"/><text class="d-lbl" x="444" y="194" text-anchor="start">rolling deploy</text></svg>
+              <figcaption>Request path (top) and delivery pipeline (bottom).</figcaption>
+            </figure>
+          </div>
+          <h4>Key decisions</h4>
+          <ul>
+            <li><b>Microservices in Python (Flask) and Laravel:</b> backend systems split into services, so AI and document workloads and core product features can evolve and deploy independently (see the <a href="#decision-flask-laravel">decision log</a>).</li>
+            <li><b>Redis-based caching strategies</b> to improve system performance and response times (see the <a href="#decision-redis">decision log</a>).</li>
+            <li><b>CI/CD pipelines in Jenkins</b>, designed and managed to improve deployment reliability and speed.</li>
+            <li><b>AWS deployment and operations</b> on EC2, S3, CloudFront, RDS and Lightsail.</li>
+          </ul>
+          <h4>Outcome</h4>
+          <p>Enterprise SaaS platforms delivered on a microservices backend, with better performance and response times from Redis caching and more reliable, faster deployments from Jenkins CI/CD.</p>
+        </article>
+
+        <article id="case-extensions" class="case card" aria-labelledby="case-ext-title">
+          <p class="case__tag">case/04 · open source · side projects</p>
+          <h3 id="case-ext-title">Chrome extensions (Manifest V3) and the Kairo desktop pet</h3>
+          <div class="case__grid">
+            <div class="case__body">
+              <h4>Problem</h4>
+              <p>Chrome's Manifest V3 moved extensions to service workers and stricter APIs, which broke many older screenshot tutorials. Separately, I wanted a small, friendly desktop companion for break reminders that doesn't need an account or send data anywhere.</p>
+              <h4>Constraints</h4>
+              <ul>
+                <li>MV3: no persistent background page; work within service-worker lifetimes.</li>
+                <li>Full-page capture across very different page layouts.</li>
+                <li>Kairo Lite: cross-platform (macOS, Windows, Linux), local-first, no telemetry.</li>
+              </ul>
+            </div>
+            <figure class="case__diagram">
+              <svg class="diagram" viewBox="0 0 600 176" role="img" aria-labelledby="ext-t ext-d"><title id="ext-t">Full-page screenshot extension</title><desc id="ext-d">Clicking the popup messages the Manifest V3 service worker, which drives a content script that scrolls and measures the page; each viewport is captured with captureVisibleTab, looping to the next viewport, then the captures are stitched on a canvas and downloaded as a full-page PNG.</desc><defs><marker id="ah-ext" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L8 4L0 8z" class="d-head"/></marker></defs><rect class="d-box" x="4" y="40" width="112" height="40" rx="4"/><text class="d-txt" x="60.0" y="57.5">Popup</text><text class="d-sub" x="60.0" y="70.5">click</text><path class="d-line" d="M116 60 H122" marker-end="url(#ah-ext)"/><rect class="d-box d-box--accent" x="124" y="40" width="112" height="40" rx="4"/><text class="d-txt" x="180.0" y="57.5">Service worker</text><text class="d-sub" x="180.0" y="70.5">MV3</text><path class="d-line" d="M236 60 H242" marker-end="url(#ah-ext)"/><rect class="d-box" x="244" y="40" width="112" height="40" rx="4"/><text class="d-txt" x="300.0" y="57.5">Content script</text><text class="d-sub" x="300.0" y="70.5">scroll + measure</text><path class="d-line" d="M356 60 H362" marker-end="url(#ah-ext)"/><rect class="d-box" x="364" y="40" width="112" height="40" rx="4"/><text class="d-txt" x="420.0" y="57.5">captureVisibleTab</text><text class="d-sub" x="420.0" y="70.5">per viewport</text><path class="d-line" d="M476 60 H482" marker-end="url(#ah-ext)"/><rect class="d-box" x="484" y="40" width="112" height="40" rx="4"/><text class="d-txt" x="540.0" y="57.5">Stitch</text><text class="d-sub" x="540.0" y="70.5">canvas</text><path class="d-line d-dash" d="M420 40 V18 H300 V38" marker-end="url(#ah-ext)"/><text class="d-lbl" x="360" y="12" text-anchor="middle">next viewport</text><rect class="d-box d-box--ok" x="484" y="130" width="112" height="40" rx="4"/><text class="d-txt" x="540.0" y="147.5">Download</text><text class="d-sub" x="540.0" y="160.5">full-page PNG</text><path class="d-line" d="M540 80 V128" marker-end="url(#ah-ext)"/></svg>
+              <figcaption>Full-page capture: scroll, capture each viewport, stitch.</figcaption>
+            </figure>
+          </div>
+          <h4>Key decisions</h4>
+          <ul>
+            <li><b>Scroll and stitch:</b> capture viewport by viewport and stitch into a single PNG, rather than relying on unsupported full-page APIs.</li>
+            <li><b>Teach the fundamentals:</b> keep the repos small and readable so they double as Manifest V3 tutorials.</li>
+            <li><b>Kairo Lite on Electron</b> with everything read locally (idle time, battery, CPU) and config in one JSON file; window-climbing is an optional native module, so the app still runs if it fails to build.</li>
+          </ul>
+          <h4>Outcome</h4>
+          <p>The two screenshot extensions have <strong>15 stars</strong> each on GitHub, and Kairo Lite ships as a free cross-platform app. The mascot on this page is a nod to Kairo.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 6. PROJECTS -->
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="section-num">05</p>
+          <h2 id="projects-title">Open source and side projects</h2>
+          <p class="section-lede">Stars and forks load live from GitHub. <span id="gh-status" class="muted"></span></p>
+        </header>
+        <ul class="projects">
+          <li class="project card" data-repo="chrome-extension-manifestv3-full-page-screenshot">
+            <h3><a href="https://github.com/hacess/chrome-extension-manifestv3-full-page-screenshot" rel="noopener">Full-Page Screenshots Chrome Extension</a></h3>
+            <p>Manifest V3 extension that scrolls the page, captures each viewport and stitches everything into one PNG.</p>
+            <p class="project__meta"><span class="lang">JavaScript</span><span class="stat" title="Stars"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5l1.9 4 4.4.5-3.3 3 .9 4.4L8 11.2 4.1 13.4l.9-4.4-3.3-3 4.4-.5z"/></svg><span data-stat="stars">15</span><span class="visually-hidden"> stars</span></span><span class="stat" title="Forks"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3v4a3 3 0 0 0 3 3 3 3 0 0 0 3-3V3M8 10v3" fill="none"/></svg><span data-stat="forks">5</span><span class="visually-hidden"> forks</span></span></p>
+          </li>
+          <li class="project card" data-repo="chrome-extension-manifestv3-screenshot">
+            <h3><a href="https://github.com/hacess/chrome-extension-manifestv3-screenshot" rel="noopener">Chrome Extension Manifest V3 Screenshot</a></h3>
+            <p>A minimal, tutorial-style MV3 extension for capturing the visible tab.</p>
+            <p class="project__meta"><span class="lang">JavaScript</span><span class="stat" title="Stars"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5l1.9 4 4.4.5-3.3 3 .9 4.4L8 11.2 4.1 13.4l.9-4.4-3.3-3 4.4-.5z"/></svg><span data-stat="stars">15</span><span class="visually-hidden"> stars</span></span><span class="stat" title="Forks"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3v4a3 3 0 0 0 3 3 3 3 0 0 0 3-3V3M8 10v3" fill="none"/></svg><span data-stat="forks">3</span><span class="visually-hidden"> forks</span></span></p>
+          </li>
+          <li class="project card" data-repo="kairo-lite-desktop-pet">
+            <h3><a href="https://github.com/hacess/kairo-lite-desktop-pet" rel="noopener">Kairo Lite Desktop Pet</a></h3>
+            <p>A free, local-first desktop pet for macOS, Windows and Linux that roams the screen, shows reminders and break nudges, and reacts to the system.</p>
+            <p class="project__meta"><span class="lang">Electron</span><span class="stat" title="Stars"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5l1.9 4 4.4.5-3.3 3 .9 4.4L8 11.2 4.1 13.4l.9-4.4-3.3-3 4.4-.5z"/></svg><span data-stat="stars">3</span><span class="visually-hidden"> stars</span></span><span class="stat" title="Forks"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3v4a3 3 0 0 0 3 3 3 3 0 0 0 3-3V3M8 10v3" fill="none"/></svg><span data-stat="forks">0</span><span class="visually-hidden"> forks</span></span></p>
+          </li>
+          <li class="project card" data-repo="selenium-web-scraping">
+            <h3><a href="https://github.com/hacess/selenium-web-scraping" rel="noopener">Selenium web scraping</a></h3>
+            <p>Python and Selenium scripts that extract structured data from Wikipedia pages.</p>
+            <p class="project__meta"><span class="lang">Python</span><span class="stat" title="Stars"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5l1.9 4 4.4.5-3.3 3 .9 4.4L8 11.2 4.1 13.4l.9-4.4-3.3-3 4.4-.5z"/></svg><span data-stat="stars">0</span><span class="visually-hidden"> stars</span></span><span class="stat" title="Forks"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3v4a3 3 0 0 0 3 3 3 3 0 0 0 3-3V3M8 10v3" fill="none"/></svg><span data-stat="forks">0</span><span class="visually-hidden"> forks</span></span></p>
+          </li>
+          <li class="project card" data-repo="voice-browsing">
+            <h3><a href="https://github.com/hacess/voice-browsing" rel="noopener">Voice browsing</a></h3>
+            <p>A website you navigate by speaking: say a section name and the page goes there.</p>
+            <p class="project__meta"><span class="lang">JavaScript</span><span class="stat" title="Stars"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5l1.9 4 4.4.5-3.3 3 .9 4.4L8 11.2 4.1 13.4l.9-4.4-3.3-3 4.4-.5z"/></svg><span data-stat="stars">0</span><span class="visually-hidden"> stars</span></span><span class="stat" title="Forks"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3v4a3 3 0 0 0 3 3 3 3 0 0 0 3-3V3M8 10v3" fill="none"/></svg><span data-stat="forks">0</span><span class="visually-hidden"> forks</span></span></p>
+          </li>
+          <li class="project card project--site">
+            <h3><a href="https://www.codedbrainy.com/" rel="noopener">CodedBrainy</a></h3>
+            <p>My tech blog and platform on full-stack development and AI systems, with an SEO-optimized WordPress architecture.</p>
+            <p class="project__meta"><span class="lang">WordPress</span><span class="muted">codedbrainy.com</span></p>
+          </li>
+        </ul>
+
+        <h3 class="subhead">Other systems I've designed</h3>
+        <ul class="mini-list">
+          <li><b>Workforce activity monitor:</b> a cross-platform Electron app that classifies activity every 60 seconds through a layered pipeline, ending in a small on-device vision model in a worker thread, with automation-spoof detection and a retrying sync queue.</li>
+          <li><b>Secure assessment and proctoring app:</b> a hardened Electron app with on-device face verification and screenshot classification, a sandboxed JavaScript and Python code runner, and an S3-backed audit trail.</li>
+          <li><b>Solar plant monitoring:</b> Modbus RTU → MQTT → performance-ratio engine → 5-state anomaly detector with LLM root-cause hints, streamed to a FastAPI and WebSocket dashboard, all in Docker Compose.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 7. DECISION LOG -->
+    <section id="decisions" class="section" aria-labelledby="decisions-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="section-num">06</p>
+          <h2 id="decisions-title">Decision log</h2>
+          <p class="section-lede">Short architecture decision records: why I chose X over Y.</p>
+        </header>
+        <div class="adr-list">
+          <article id="decision-pgvector" class="adr card">
+            <p class="adr__id">ADR-001</p>
+            <h3>Why I chose pgvector over a dedicated vector database</h3>
+            <dl>
+              <div><dt>Context</dt><dd>RAG over per-case document sets, where chunks need rich metadata filters (document, page, type) and must stay consistent with the source records.</dd></div>
+              <div><dt>Decision</dt><dd>Store embeddings in PostgreSQL with pgvector, next to documents and metadata.</dd></div>
+              <div><dt>Why</dt><dd>One transactional store; SQL filters and joins with vector search in one query; no second system to run, secure, back up or keep in sync; and the scale fits comfortably.</dd></div>
+              <div><dt>Trade-off</dt><dd>A specialized vector DB can scale further and tune ANN indexes more finely. I'd revisit if the corpus grows by orders of magnitude or needs cross-tenant search.</dd></div>
+            </dl>
+          </article>
+          <article id="decision-redis" class="adr card">
+            <p class="adr__id">ADR-002</p>
+            <h3>Why I chose cache-aside Redis over write-through caching</h3>
+            <dl>
+              <div><dt>Context</dt><dd>Read-heavy endpoints and expensive computed results in a SaaS backend.</dd></div>
+              <div><dt>Decision</dt><dd>Cache-aside in Redis with explicit TTLs per key family, plus invalidation when the underlying data changes.</dd></div>
+              <div><dt>Why</dt><dd>The database stays the source of truth; only data that's actually read gets cached; and if Redis is unavailable the app degrades to slower, not broken.</dd></div>
+              <div><dt>Trade-off</dt><dd>The first read after expiry is slow, and invalidation has to be designed carefully to avoid stale data.</dd></div>
+            </dl>
+          </article>
+          <article id="decision-flask-laravel" class="adr card">
+            <p class="adr__id">ADR-003</p>
+            <h3>Why I chose Flask services alongside Laravel over a single stack</h3>
+            <dl>
+              <div><dt>Context</dt><dd>Products that combine standard business features with LLM, embedding and OCR workloads.</dd></div>
+              <div><dt>Decision</dt><dd>Laravel for core product features; Python (Flask) microservices for AI and document processing.</dd></div>
+              <div><dt>Why</dt><dd>Python has the strongest ecosystem for LLM, embedding and document work; Laravel is very productive for auth, admin and business logic; separate services scale and deploy independently.</dd></div>
+              <div><dt>Trade-off</dt><dd>Two stacks to maintain and a network boundary to design (contracts, retries, observability).</dd></div>
+            </dl>
+          </article>
+          <article id="decision-on-device" class="adr card">
+            <p class="adr__id">ADR-004</p>
+            <h3>Why I chose an on-device model over a cloud API for activity classification</h3>
+            <dl>
+              <div><dt>Context</dt><dd>A cross-platform Electron app that classifies workforce activity every 60 seconds on every monitored desktop.</dd></div>
+              <div><dt>Decision</dt><dd>A layered pipeline: deterministic app lookup first, and only then a small Qwen 0.8B ONNX vision model, running in a dedicated worker thread, to classify screenshots.</dd></div>
+              <div><dt>Why</dt><dd>Most activity is resolved by the cheap lookup; the model runs locally, so there is no per-call API cost or network round trip for screenshots; and the worker thread keeps the app responsive.</dd></div>
+              <div><dt>Trade-off</dt><dd>A small local model is less capable than a large hosted one, and it adds download size and CPU load on the client.</dd></div>
+            </dl>
+          </article>
+          <article id="decision-mqtt" class="adr card">
+            <p class="adr__id">ADR-005</p>
+            <h3>Why I chose a store-and-forward buffer and an alert state machine over plain threshold alerts</h3>
+            <dl>
+              <div><dt>Context</dt><dd>A solar plant monitoring system streaming inverter and weather telemetry from Modbus RTU through MQTT, where broker disconnects and transient faults are normal.</dd></div>
+              <div><dt>Decision</dt><dd>An async MQTT gateway with a store-and-forward ring buffer persisted to JSONL, and anomaly detection as a 5-state machine (Normal → Detecting → Confirmed → Diagnosed → Recovering) with LLM root-cause diagnosis and a 30-minute cooldown.</dd></div>
+              <div><dt>Why</dt><dd>The buffer means zero data loss during broker disconnections; the confirmation states filter out transient spikes; the cooldown prevents alert storms; and the LLM is only asked about confirmed anomalies.</dd></div>
+              <div><dt>Trade-off</dt><dd>Alerts arrive slightly later while an anomaly is being confirmed, and the buffer needs disk space during long outages.</dd></div>
+            </dl>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. CONTACT -->
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="section-num">07</p>
+          <h2 id="contact-title">Contact</h2>
+          <p class="section-lede">Have a system to design or a team to level up? Let's talk.</p>
+        </header>
+        <div class="contact-grid">
+          <ul class="contact-links">
+            <li>
+              <span class="contact-links__k">email</span>
+              <a id="email-link" href="#contact" data-u="chandanchakraborty712" data-d="gmail.com">chandanchakraborty712 [at] gmail [dot] com</a>
+            </li>
+            <li><span class="contact-links__k">linkedin</span><a href="https://www.linkedin.com/in/chandan-chakraborty-cse/" rel="noopener">in/chandan-chakraborty-cse</a></li>
+            <li><span class="contact-links__k">github</span><a href="https://github.com/hacess" rel="noopener">github.com/hacess</a></li>
+            <li><span class="contact-links__k">site</span><a href="https://www.codedbrainy.com/" rel="noopener">codedbrainy.com</a></li>
+          </ul>
+          <form id="contact-form" class="contact-form card" novalidate>
+            <p class="contact-form__hint">This opens your email app with the message filled in. Nothing is sent to a server.</p>
+            <div class="field">
+              <label for="cf-name">Your name</label>
+              <input id="cf-name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="cf-subject">Subject</label>
+              <input id="cf-subject" name="subject" type="text" placeholder="Architecture consult, role, collaboration…">
+            </div>
+            <div class="field">
+              <label for="cf-message">Message</label>
+              <textarea id="cf-message" name="message" rows="5" required></textarea>
+            </div>
+            <p id="cf-error" class="field-error" role="alert"></p>
+            <button type="submit" class="btn btn--primary">Open email draft</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© <span id="year">2026</span> Chandan Chakraborty · Static site, no trackers.</p>
+      <p><a href="#hero">Back to top ↑</a></p>
+    </div>
+  </footer>
+
+  <div id="pet" class="pet" aria-hidden="true" hidden>
+    <div class="pet__bubble" hidden></div>
+    <div class="pet__body"></div>
+  </div>
+</body>
+</html>
